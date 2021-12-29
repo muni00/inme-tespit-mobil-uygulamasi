@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUserActivity">
+
+    <EditText
+        android:id="@+id/kullanici_adi"
+        android:layout_width="322dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="kullanıcı adı"
+        android:inputType="text"
+        app:backgroundTint="@color/yesil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.158" />
+
+    <EditText
+        android:id="@+id/kl_email"
+        android:layout_width="322dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        app:backgroundTint="@color/yesil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kullanici_adi"
+        app:layout_constraintVertical_bias="0.072" />
+
+    <EditText
+        android:id="@+id/kl_password"
+        android:layout_width="322dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPassword"
+        app:backgroundTint="@color/yesil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kl_email"
+        app:layout_constraintVertical_bias="0.101" />
+
+    <EditText
+        android:id="@+id/kl_yetki"
+        android:layout_width="322dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="yetki"
+        android:inputType="text"
+        app:backgroundTint="@color/yesil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kl_password"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <Button
+        android:id="@+id/kl_kaydet_btn"
+        android:layout_width="192dp"
+        android:layout_height="54dp"
+        android:background="@drawable/button_view"
+        android:text="Kaydet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kl_yetki"
+        app:layout_constraintVertical_bias="0.223" />
+</androidx.constraintlayout.widget.ConstraintLayout>

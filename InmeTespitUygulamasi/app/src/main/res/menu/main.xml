@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/menu_items">
+        <item android:title="Anasayfaya Dön"
+            android:id="@+id/anasayfaya_don"
+            android:icon="@drawable/ic_launcher_foreground"
+            app:showAsAction="always"
+            />
+        <item android:title="Kullanıcı Ekle"
+            android:id="@+id/kullanici_ekle"/>
+        <item android:title="Soru Ekle"
+            android:id="@+id/soru_ekle"/>
+        <item android:title="Çıkış Yap"
+            android:id="@+id/cikis_yap"
+            />
+    </group>
+</menu>

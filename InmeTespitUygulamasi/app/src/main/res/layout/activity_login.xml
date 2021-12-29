@@ -23,30 +23,30 @@
         android:layout_width="322dp"
         android:layout_height="47dp"
         android:layout_marginBottom="92dp"
+        android:textColor="@color/yesil"
         android:ems="10"
         android:hint="password"
         android:inputType="textPassword"
         app:backgroundTint="@color/yesil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email"
-        app:layout_constraintVertical_bias="0.153" />
+        app:layout_constraintVertical_bias="0.051" />
 
     <Button
         android:id="@+id/girisButton"
         android:layout_width="194dp"
         android:layout_height="49dp"
-        android:layout_marginTop="16dp"
         android:background="@drawable/button_view"
         android:text="giriş"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.179" />
+        app:layout_constraintTop_toBottomOf="@+id/user_name"
+        app:layout_constraintVertical_bias="0.088" />
 
     <Button
         android:id="@+id/kayitButton"
@@ -66,14 +66,31 @@
         android:layout_width="318dp"
         android:layout_height="52dp"
         android:ems="10"
+        android:textColor="@color/yesil"
+        android:hint="email@gmail.com"
         android:inputType="textEmailAddress"
         app:backgroundTint="@color/yesil"
-        android:hint="email@gmail.com"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.222" />
+        app:layout_constraintVertical_bias="0.056" />
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="318dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="kullanıcı adı"
+        android:textColor="@color/yesil"
+        android:inputType="text"
+        app:backgroundTint="@color/yesil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.079" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
